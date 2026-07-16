@@ -63,7 +63,7 @@ restart.addEventListener("click", (event) => {
     let para = document.getElementById("winningMessage");
     para.innerHTML = "";
     turn = "O";
-    let total_turn = 0;
+    total_turn = 0;
     board_array = new Array(9).fill("E"); 
     board.addEventListener("click", printer);
 });
